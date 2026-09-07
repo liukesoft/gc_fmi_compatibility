@@ -1,0 +1,167 @@
+<meta projectGuid="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" guid="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" metaName="bitlow" classifyName="Default" classID="{2535776d-0c75-48f4-bac8-b2c131c505f0}" libMetaId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isRefrence="false" displayName="bitlow" camp="" metaModelType="2" category="" description="" note="" libName="LogicGates" metaType="" imageName="" backgroundColor="FFFFFF" subSystemType="" isbuiltin="true" DependLibType="0" stepNumber="1" subEnableType="0" subSolverType="2">
+    <listSubMeta />
+    <listParameter />
+    <listFmu>
+        <fmu name="Number_in" moduleType="17" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{fc2bd789-ed04-475e-a9ca-2d89707d59b5}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="0" initVal="0">
+            <var name="out0" type="0" enumType="" startvalue="0" currentvalue="0" globalparastr="" causality="1" variability="4" operator="14" description="" descriptionForCompile="" id="0" guid="out0" isDelay="0" matrixDataInfo="[1,1]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Number_out1" moduleType="18" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{0f6617ad-cb70-4235-ae30-d4e9b0055aa3}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="0">
+            <var name="in0" type="0" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="13" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Number_out2" moduleType="18" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{e80b87b7-f4bd-4889-98fe-753fe79c3d87}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="1">
+            <var name="in0" type="0" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="13" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Number_out3" moduleType="18" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{520639ca-d13e-420a-a7e5-2833736a77f2}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="2">
+            <var name="in0" type="0" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="13" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Number_out4" moduleType="18" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{1ac10c39-1e8f-4024-b061-5ff1176d6130}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="3">
+            <var name="in0" type="0" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="13" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Extraction" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{e1ed1436-91fd-491b-b631-431a17053e6f}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="0" isLogicalShift="1" opType="4" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Extraction_2" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{9343e79b-bdb4-4c17-bf8d-0596af704b0c}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="0" isLogicalShift="1" opType="4" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Extraction_3" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{565ae98f-d7c6-4cd2-827c-59f53ef65d93}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="0" isLogicalShift="1" opType="4" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Extraction_4" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{8afb990e-16b5-49cf-ac53-6c01224dccc2}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="0" isLogicalShift="1" opType="4" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Extraction_number1" moduleType="1" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{71e207d1-15b0-406b-8e68-35d220469cd9}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="8" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="">
+            <var name="out1" type="8" enumType="" startvalue="1" currentvalue="1" globalparastr="" causality="1" variability="4" operator="1" description="" descriptionForCompile="" id="0" guid="out1" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="ParamVal" type="0" enumType="" startvalue="1" currentvalue="1" globalparastr="1" causality="2" variability="2" operator="1" description="常量参数,控制常量输出值" descriptionForCompile="" id="0" guid="ParamVal" isDelay="0" matrixDataInfo="[0]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Extraction_number2" moduleType="1" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{2525c48d-5d0d-40d6-a18a-15c9d4c79bcb}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="8" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="">
+            <var name="out1" type="8" enumType="" startvalue="1" currentvalue="1" globalparastr="" causality="1" variability="4" operator="1" description="" descriptionForCompile="" id="0" guid="out1" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="ParamVal" type="0" enumType="" startvalue="1" currentvalue="2" globalparastr="2" causality="2" variability="2" operator="1" description="常量参数,控制常量输出值" descriptionForCompile="" id="0" guid="ParamVal" isDelay="0" matrixDataInfo="[0]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Extraction_number3" moduleType="1" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{06a5f24b-a5ad-45c8-89c8-4975eb220f51}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="8" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="">
+            <var name="out1" type="8" enumType="" startvalue="1" currentvalue="1" globalparastr="" causality="1" variability="4" operator="1" description="" descriptionForCompile="" id="0" guid="out1" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="ParamVal" type="0" enumType="" startvalue="1" currentvalue="4" globalparastr="4" causality="2" variability="2" operator="1" description="常量参数,控制常量输出值" descriptionForCompile="" id="0" guid="ParamVal" isDelay="0" matrixDataInfo="[0]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Extraction_number4" moduleType="1" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{016edbf2-78d9-4b79-bba7-90925dd552f1}" subId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}" isCalibration="0" isCalibType="1" outType="8" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="">
+            <var name="out1" type="8" enumType="" startvalue="1" currentvalue="1" globalparastr="" causality="1" variability="4" operator="1" description="" descriptionForCompile="" id="0" guid="out1" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="ParamVal" type="0" enumType="" startvalue="1" currentvalue="8" globalparastr="8" causality="2" variability="2" operator="1" description="常量参数,控制常量输出值" descriptionForCompile="" id="0" guid="ParamVal" isDelay="0" matrixDataInfo="[0]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+    </listFmu>
+    <listSateFlowSubSystem />
+    <listMux />
+    <listDeMux />
+    <listGoFrom />
+    <listGoTo />
+    <ModifiedVar />
+    <markVarList />
+    <listPort />
+    <listBus />
+    <connections>
+        <connection id="{9966227a-1579-4e98-8031-e0e24a75bd90}" isManual="0">
+            <source itemName="Extraction_number4" connectorVarName="out1" connectorVarId="out1" guid="{016edbf2-78d9-4b79-bba7-90925dd552f1}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{0000}" outputvardiplayname="Extraction_number4" />
+            <sink itemName="Extraction_4" connectorVarName="in1" connectorVarId="in1" guid="{8afb990e-16b5-49cf-ac53-6c01224dccc2}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{0000}" outputvardiplayname="Extraction_4" />
+            <pathData>388|660|416|660|416|660|444|660|</pathData>
+        </connection>
+        <connection id="{136d1d45-35d3-4beb-86b7-d3d7d214b322}" isManual="0">
+            <source itemName="Extraction_number3" connectorVarName="out1" connectorVarId="out1" guid="{06a5f24b-a5ad-45c8-89c8-4975eb220f51}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{0000}" outputvardiplayname="Extraction_number3" />
+            <sink itemName="Extraction_3" connectorVarName="in1" connectorVarId="in1" guid="{565ae98f-d7c6-4cd2-827c-59f53ef65d93}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{0000}" outputvardiplayname="Extraction_3" />
+            <pathData>388|500|416|500|416|500|444|500|</pathData>
+        </connection>
+        <connection id="{2c58c884-a8f1-4028-95a5-b11443d99e0c}" isManual="0">
+            <source itemName="Extraction_number2" connectorVarName="out1" connectorVarId="out1" guid="{2525c48d-5d0d-40d6-a18a-15c9d4c79bcb}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{0000}" outputvardiplayname="Extraction_number2" />
+            <sink itemName="Extraction_2" connectorVarName="in1" connectorVarId="in1" guid="{9343e79b-bdb4-4c17-bf8d-0596af704b0c}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{0000}" outputvardiplayname="Extraction_2" />
+            <pathData>388|344|416|344|416|344|444|344|</pathData>
+        </connection>
+        <connection id="{503faae6-94fa-4c7d-9edf-0714f3a762f4}" isManual="0">
+            <source itemName="Extraction_number1" connectorVarName="out1" connectorVarId="out1" guid="{71e207d1-15b0-406b-8e68-35d220469cd9}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{0000}" outputvardiplayname="Extraction_number1" />
+            <sink itemName="Extraction" connectorVarName="in1" connectorVarId="in1" guid="{e1ed1436-91fd-491b-b631-431a17053e6f}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{0000}" outputvardiplayname="Extraction" />
+            <pathData>388|172|416|172|416|172|444|172|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="Number_in" connectorVarName="out0" connectorVarId="out0" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Number_in" />
+            <sink itemName="Extraction" connectorVarName="in0" connectorVarId="in0" guid="" type="fmu" fmutype="1081344000" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|88|148|88|404|88|444|88|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="Extraction" connectorVarName="out" connectorVarId="out" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <sink itemName="Number_out1" connectorVarName="in0" connectorVarId="in0" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Number_out1" />
+            <pathData>544|128|584|128|640|128|680|128|</pathData>
+        </connection>
+        <connection id="" isManual="1">
+            <source itemName="Number_in" connectorVarName="out0" connectorVarId="out0" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Number_in" />
+            <sink itemName="Extraction_2" connectorVarName="in0" connectorVarId="in0" guid="" type="fmu" fmutype="1081344000" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|88|148|88|228|88|228|260|404|260|444|260|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="Extraction_2" connectorVarName="out" connectorVarId="out" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <sink itemName="Number_out2" connectorVarName="in0" connectorVarId="in0" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Number_out2" />
+            <pathData>544|300|584|300|640|300|680|300|</pathData>
+        </connection>
+        <connection id="" isManual="1">
+            <source itemName="Number_in" connectorVarName="out0" connectorVarId="out0" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Number_in" />
+            <sink itemName="Extraction_3" connectorVarName="in0" connectorVarId="in0" guid="" type="fmu" fmutype="1081344000" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|88|148|88|228|88|228|416|404|416|444|416|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="Extraction_3" connectorVarName="out" connectorVarId="out" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <sink itemName="Number_out3" connectorVarName="in0" connectorVarId="in0" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Number_out3" />
+            <pathData>544|456|584|456|640|456|680|456|</pathData>
+        </connection>
+        <connection id="" isManual="1">
+            <source itemName="Number_in" connectorVarName="out0" connectorVarId="out0" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Number_in" />
+            <sink itemName="Extraction_4" connectorVarName="in0" connectorVarId="in0" guid="" type="fmu" fmutype="1081344000" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|88|148|88|228|88|228|576|404|576|444|576|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="Extraction_4" connectorVarName="out" connectorVarId="out" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <sink itemName="Number_out4" connectorVarName="in0" connectorVarId="in0" guid="" type="fmu" fmutype="343" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Number_out4" />
+            <pathData>544|616|584|616|640|616|680|616|</pathData>
+        </connection>
+    </connections>
+    <listFault />
+    <listGroup />
+</meta>
+<Scene metaId="{966bf26f-a51f-4307-b516-cfe4b9f99a58}">
+    <SceneInfo subSystemId="" Leftlinesite="0" RightLinesite="1643" SceneRectWidth="1643" SceneRectHeight="798" Scale="1" />
+    <nodelist>
+        <nodeInfo nodename="Number_in" index="0" width="32" high="32" x="84" y="88" rotation="0" displayName="" />
+        <nodeInfo nodename="Number_out1" index="0" width="32" high="32" x="696" y="128" rotation="0" displayName="" />
+        <nodeInfo nodename="Number_out2" index="0" width="32" high="32" x="696" y="300" rotation="0" displayName="" />
+        <nodeInfo nodename="Number_out3" index="0" width="32" high="32" x="696" y="456" rotation="0" displayName="" />
+        <nodeInfo nodename="Number_out4" index="0" width="32" high="32" x="696" y="616" rotation="0" displayName="" />
+        <nodeInfo nodename="Extraction" index="0" width="92" high="108" x="492" y="128" rotation="0" displayName="" />
+        <nodeInfo nodename="Extraction_2" index="0" width="92" high="108" x="492" y="300" rotation="0" displayName="" />
+        <nodeInfo nodename="Extraction_3" index="0" width="92" high="108" x="492" y="456" rotation="0" displayName="" />
+        <nodeInfo nodename="Extraction_4" index="0" width="92" high="108" x="492" y="616" rotation="0" displayName="" />
+        <nodeInfo nodename="Extraction_number1" index="0" width="92" high="52" x="336" y="172" rotation="0" displayName="" />
+        <nodeInfo nodename="Extraction_number2" index="0" width="92" high="52" x="336" y="344" rotation="0" displayName="" />
+        <nodeInfo nodename="Extraction_number3" index="0" width="92" high="52" x="336" y="500" rotation="0" displayName="" />
+        <nodeInfo nodename="Extraction_number4" index="0" width="92" high="52" x="336" y="660" rotation="0" displayName="" />
+    </nodelist>
+    <backgroundBlockItemList />
+    <textItemList />
+    <portList />
+    <portIdAndPosInfoLst>
+        <portIdAndPosInfo inputPortIdInOrderInfo="" outputPortIdInOrderInfo="" />
+    </portIdAndPosInfoLst>
+</Scene>

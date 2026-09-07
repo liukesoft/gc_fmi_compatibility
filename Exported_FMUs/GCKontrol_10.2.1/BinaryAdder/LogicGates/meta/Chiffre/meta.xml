@@ -1,0 +1,150 @@
+<meta projectGuid="{d2757ba7-449e-4c77-a949-bd3fc1379434}" guid="{d2757ba7-449e-4c77-a949-bd3fc1379434}" metaName="Chiffre" classifyName="Default" classID="{2535776d-0c75-48f4-bac8-b2c131c505f0}" libMetaId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isRefrence="false" displayName="Chiffre" camp="" metaModelType="2" category="" description="" note="" libName="LogicGates" metaType="" imageName="" backgroundColor="FFFFFF" subSystemType="" isbuiltin="true" DependLibType="0" stepNumber="1" subEnableType="0" subSolverType="2">
+    <listSubMeta />
+    <listParameter />
+    <listFmu>
+        <fmu name="R0" moduleType="17" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{ed6ea7db-6730-457a-aa19-2b109dd00894}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="0" initVal="0">
+            <var name="out0" type="0" enumType="" startvalue="0" currentvalue="0" globalparastr="" causality="1" variability="4" operator="14" description="" descriptionForCompile="" id="0" guid="out0" isDelay="0" matrixDataInfo="[1,1]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Ai" moduleType="17" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{1215c2b5-a5f9-40e0-a2d6-91f520fc094a}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="1" initVal="0">
+            <var name="out0" type="0" enumType="" startvalue="0" currentvalue="0" globalparastr="" causality="1" variability="4" operator="14" description="" descriptionForCompile="" id="0" guid="out0" isDelay="0" matrixDataInfo="[1,1]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Bi" moduleType="17" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{19a97a13-a273-48b5-96c5-3c2519533e6f}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="2" initVal="0">
+            <var name="out0" type="0" enumType="" startvalue="0" currentvalue="0" globalparastr="" causality="1" variability="4" operator="14" description="" descriptionForCompile="" id="0" guid="out0" isDelay="0" matrixDataInfo="[1,1]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Si" moduleType="18" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{03e875fe-07af-486c-9639-1e89872e657c}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="0">
+            <var name="in0" type="0" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="13" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Ri" moduleType="18" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{4697e2d3-ed24-4f46-b3d2-20d2e6a7db6c}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="1" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" portNo="1">
+            <var name="in0" type="0" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="13" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="1" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="And" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{b6594ece-0e79-4a57-8b3b-4d36daebccd2}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="0" isLogicalShift="1" opType="4" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="And_2" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{6f2b5779-e04a-4ee7-b9b4-472a6814a0c5}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="1" isLogicalShift="1" opType="0" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="Or" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{aa753f05-2ca7-4ec8-947c-bf8f22e9e292}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="1" isLogicalShift="1" opType="1" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="XOR" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{65c77ac1-402b-4ec2-a224-c1233c45b5b8}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="1" isLogicalShift="1" opType="2" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+        <fmu name="XOR_2" moduleType="68" isbuiltin="false" type="21" DependLibType="0" description="" fmuguid="{bf684186-36ce-4085-a944-ef6047a24072}" subId="{d2757ba7-449e-4c77-a949-bd3fc1379434}" isCalibration="0" isCalibType="1" outType="-1" enumType="" isGlobalVar="0" isDataDicType="0" isUseInterpolation="0" interpolationName="" dataDictName="" isLogical="1" isLogicalShift="1" opType="2" shiftBits="1">
+            <var name="out" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="1" variability="4" operator="43" description="" descriptionForCompile="" id="0" guid="out" isDelay="0" matrixDataInfo="[0]" gain="0" offset="0" minValue="0" maxValue="0" storageType="0" keyWords="0" isGlobalVar="0" aliasName="" dataDicName="" measurementName="" dataLabelType="0" />
+            <var name="in0" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="42" description="" descriptionForCompile="" id="0" guid="in0" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <var name="in1" type="8" enumType="" startvalue="0" currentvalue="" globalparastr="" causality="0" variability="4" operator="40" description="" descriptionForCompile="" id="0" guid="in1" isDelay="0" matrixDataInfo="[]" dataLabelType="0" />
+            <requireFiles />
+        </fmu>
+    </listFmu>
+    <listSateFlowSubSystem />
+    <listMux />
+    <listDeMux />
+    <listGoFrom />
+    <listGoTo />
+    <ModifiedVar />
+    <markVarList />
+    <listPort />
+    <listBus />
+    <connections>
+        <connection id="{8d70892d-d978-41f2-be15-772a6da9b91f}" isManual="0">
+            <source itemName="And_2" connectorVarName="out" connectorVarId="out" guid="{6f2b5779-e04a-4ee7-b9b4-472a6814a0c5}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{8c59abb2-0a05-4100-9b25-1f1cee691793}" outputvardiplayname="And_2" />
+            <sink itemName="Or" connectorVarName="in1" connectorVarId="in1" guid="{aa753f05-2ca7-4ec8-947c-bf8f22e9e292}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{8c59abb2-0a05-4100-9b25-1f1cee691793}" outputvardiplayname="Or" />
+            <pathData>484|364|524|364|536|364|576|364|</pathData>
+        </connection>
+        <connection id="{e56117a1-a8e7-4982-9339-284e86917701}" isManual="0">
+            <source itemName="And" connectorVarName="out" connectorVarId="out" guid="{b6594ece-0e79-4a57-8b3b-4d36daebccd2}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{8c59abb2-0a05-4100-9b25-1f1cee691793}" outputvardiplayname="And" />
+            <sink itemName="Or" connectorVarName="in0" connectorVarId="in0" guid="{aa753f05-2ca7-4ec8-947c-bf8f22e9e292}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{8c59abb2-0a05-4100-9b25-1f1cee691793}" outputvardiplayname="Or" />
+            <pathData>324|280|364|280|536|280|576|280|</pathData>
+        </connection>
+        <connection id="{b51e13a0-1c3c-4e70-9528-fffcad547b63}" isManual="1">
+            <source itemName="XOR" connectorVarName="out" connectorVarId="out" guid="{65c77ac1-402b-4ec2-a224-c1233c45b5b8}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{8c59abb2-0a05-4100-9b25-1f1cee691793}" outputvardiplayname="XOR" />
+            <sink itemName="And_2" connectorVarName="in0" connectorVarId="in0" guid="{6f2b5779-e04a-4ee7-b9b4-472a6814a0c5}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{8c59abb2-0a05-4100-9b25-1f1cee691793}" outputvardiplayname="And_2" />
+            <pathData>324|124|372|124|372|324|380|324|420|324|</pathData>
+        </connection>
+        <connection id="{32d36625-2e2f-42a8-86f3-6088a15cd79e}" isManual="1">
+            <source itemName="XOR" connectorVarName="out" connectorVarId="out" guid="{65c77ac1-402b-4ec2-a224-c1233c45b5b8}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{8c59abb2-0a05-4100-9b25-1f1cee691793}" outputvardiplayname="XOR" />
+            <sink itemName="XOR_2" connectorVarName="in1" connectorVarId="in1" guid="{bf684186-36ce-4085-a944-ef6047a24072}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{8c59abb2-0a05-4100-9b25-1f1cee691793}" outputvardiplayname="XOR_2" />
+            <pathData>324|124|372|124|372|556|380|556|420|556|</pathData>
+        </connection>
+        <connection id="" isManual="1">
+            <source itemName="Ai" connectorVarName="out0" connectorVarId="out0" guid="{1215c2b5-a5f9-40e0-a2d6-91f520fc094a}" type="fmu" fmutype="482" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Ai" />
+            <sink itemName="And" connectorVarName="in0" connectorVarId="in0" guid="{b6594ece-0e79-4a57-8b3b-4d36daebccd2}" type="fmu" fmutype="1082171392" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|84|148|84|176|84|176|240|196|240|236|240|</pathData>
+        </connection>
+        <connection id="" isManual="1">
+            <source itemName="Bi" connectorVarName="out0" connectorVarId="out0" guid="{19a97a13-a273-48b5-96c5-3c2519533e6f}" type="fmu" fmutype="482" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Bi" />
+            <sink itemName="And" connectorVarName="in1" connectorVarId="in1" guid="{b6594ece-0e79-4a57-8b3b-4d36daebccd2}" type="fmu" fmutype="1082171392" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|168|148|168|176|168|176|324|196|324|236|324|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="R0" connectorVarName="out0" connectorVarId="out0" guid="{ed6ea7db-6730-457a-aa19-2b109dd00894}" type="fmu" fmutype="482" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="R0" />
+            <sink itemName="And_2" connectorVarName="in1" connectorVarId="in1" guid="{6f2b5779-e04a-4ee7-b9b4-472a6814a0c5}" type="fmu" fmutype="1082171392" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|408|148|408|380|408|420|408|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="Or" connectorVarName="out" connectorVarId="out" guid="{aa753f05-2ca7-4ec8-947c-bf8f22e9e292}" type="fmu" fmutype="482" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <sink itemName="Ri" connectorVarName="in0" connectorVarId="in0" guid="{4697e2d3-ed24-4f46-b3d2-20d2e6a7db6c}" type="fmu" fmutype="482" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Ri" />
+            <pathData>640|320|680|320|688|320|728|320|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="Ai" connectorVarName="out0" connectorVarId="out0" guid="{1215c2b5-a5f9-40e0-a2d6-91f520fc094a}" type="fmu" fmutype="482" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Ai" />
+            <sink itemName="XOR" connectorVarName="in0" connectorVarId="in0" guid="{65c77ac1-402b-4ec2-a224-c1233c45b5b8}" type="fmu" fmutype="1082171392" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|84|148|84|192|84|232|84|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="Bi" connectorVarName="out0" connectorVarId="out0" guid="{19a97a13-a273-48b5-96c5-3c2519533e6f}" type="fmu" fmutype="482" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="Bi" />
+            <sink itemName="XOR" connectorVarName="in1" connectorVarId="in1" guid="{65c77ac1-402b-4ec2-a224-c1233c45b5b8}" type="fmu" fmutype="1082171392" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|168|148|168|192|168|232|168|</pathData>
+        </connection>
+        <connection id="" isManual="0">
+            <source itemName="R0" connectorVarName="out0" connectorVarId="out0" guid="{ed6ea7db-6730-457a-aa19-2b109dd00894}" type="fmu" fmutype="482" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="R0" />
+            <sink itemName="XOR_2" connectorVarName="in0" connectorVarId="in0" guid="{bf684186-36ce-4085-a944-ef6047a24072}" type="fmu" fmutype="1082171392" ownerMetaName="" ownerMetaGuid="" outputvardiplayname="" />
+            <pathData>108|408|148|408|264|408|264|472|380|472|420|472|</pathData>
+        </connection>
+        <connection id="{5de34c02-acce-4d1a-a580-81e10b1a45b8}" isManual="0">
+            <source itemName="XOR_2" connectorVarName="out" connectorVarId="out" guid="{bf684186-36ce-4085-a944-ef6047a24072}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{d2757ba7-449e-4c77-a949-bd3fc1379434}" outputvardiplayname="XOR_2" />
+            <sink itemName="Si" connectorVarName="in0" connectorVarId="in0" guid="{03e875fe-07af-486c-9639-1e89872e657c}" type="fmu" fmutype="21" ownerMetaName="" ownerMetaGuid="{d2757ba7-449e-4c77-a949-bd3fc1379434}" outputvardiplayname="Si" />
+            <pathData>484|512|524|512|688|512|728|512|</pathData>
+        </connection>
+    </connections>
+    <listFault />
+    <listGroup />
+</meta>
+<Scene metaId="{d2757ba7-449e-4c77-a949-bd3fc1379434}">
+    <SceneInfo subSystemId="" Leftlinesite="0" RightLinesite="2879" SceneRectWidth="2879" SceneRectHeight="1472" Scale="1" />
+    <nodelist>
+        <nodeInfo nodename="R0" index="0" width="32" high="32" x="84" y="408" rotation="0" displayName="" />
+        <nodeInfo nodename="Ai" index="0" width="32" high="32" x="84" y="84" rotation="0" displayName="" />
+        <nodeInfo nodename="Bi" index="0" width="32" high="32" x="84" y="168" rotation="0" displayName="" />
+        <nodeInfo nodename="Si" index="0" width="32" high="32" x="744" y="512" rotation="0" displayName="" />
+        <nodeInfo nodename="Ri" index="0" width="32" high="32" x="744" y="320" rotation="0" displayName="" />
+        <nodeInfo nodename="And" index="0" width="80" high="108" x="276" y="280" rotation="0" displayName="" />
+        <nodeInfo nodename="And_2" index="0" width="56" high="108" x="448" y="364" rotation="0" displayName="" />
+        <nodeInfo nodename="Or" index="0" width="56" high="108" x="604" y="320" rotation="0" displayName="" />
+        <nodeInfo nodename="XOR" index="0" width="84" high="108" x="276" y="124" rotation="0" displayName="" />
+        <nodeInfo nodename="XOR_2" index="0" width="56" high="108" x="448" y="512" rotation="0" displayName="" />
+    </nodelist>
+    <backgroundBlockItemList />
+    <textItemList />
+    <portList />
+    <portIdAndPosInfoLst>
+        <portIdAndPosInfo inputPortIdInOrderInfo="" outputPortIdInOrderInfo="" />
+    </portIdAndPosInfoLst>
+</Scene>

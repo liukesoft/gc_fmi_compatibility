@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<library>
+    <libraryname>LogicGates</libraryname>
+    <description>LogicGates</description>
+    <version>10.2.1</version>
+    <libClasses>
+        <class IDkey="{2535776d-0c75-48f4-bac8-b2c131c505f0}" Namevalue="add" />
+    </libClasses>
+</library>
