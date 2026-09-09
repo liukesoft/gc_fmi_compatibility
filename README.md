@@ -16,7 +16,61 @@ Please report failures and problems in the "issues" page of this repository.
 The exported FMUs contain c source code , win64 and lnx64 binaries. The FMU can be recompiled for other platforms. 
 FMUs are sorted in folders for various GCKontrol and FMI versions. We provide input csv file and reference output csv file. 
 
+The examples FMUs provided were imported and tested succesfully with FMPy 0.3.15, FMPy 0.3.31 , GCAir 10.2.1 and GCKontrol 10.2.1.
+
+
 # GCKontrol and GCAir FMI import compatibility information
+
+
+## Reference FMUs
+https://github.com/modelica/Reference-FMUs
+
+### GCAir
+
+GCAir V10.2.1. 
+
+| FMU           | FMI version | CS  | ME  | Notes |
+|---------------|:-----------:|:---:|:---:|-------|
+| BouncingBall  | FMI 3.0     | ✅  | —   | |
+| Clocks        | FMI 3.0     | ❌  | —   | Clocks not supported |
+| Dahlquist     | FMI 3.0     | ✅  | —   | |
+| Feedthrough   | FMI 3.0     | ✅  | —   | |
+| Resource      | FMI 3.0     | ✅  | —   | |
+| Roberts       | FMI 3.0     | ✅  | —   | |
+| Stair         | FMI 3.0     | ✅  | —   | |
+| StateSpace    | FMI 3.0     | ❌  | —   | structural parametrers not supported |
+| VanDerPol     | FMI 3.0     | ✅  | —   | |
+| BouncingBall  | FMI 2.0     | ✅  | ✅  | |
+| Dahlquist     | FMI 2.0     | ✅  | ✅  | |
+| Feedthrough   | FMI 2.0     | ✅  | ✅  | limitation : string type not handled |
+| Resource      | FMI 2.0     | ✅  | ✅  | |
+| Stair         | FMI 2.0     | ✅  | ✅  | |
+| VanDerPol     | FMI 2.0     | ✅  | ✅  | |
+
+### GCKontrol
+
+GCKontrol 10.2.1
+
+| FMU           | FMI version | CS  | Notes |
+|---------------|:-----------:|:---:|-------|
+| BouncingBall  | FMI 3.0     | ✅  | |
+| Clocks        | FMI 3.0     | ❌  | Clock variables not supported |
+| Dahlquist     | FMI 3.0     | ✅  | |
+| Feedthrough   | FMI 3.0     | ❌  | String/Boolean/Enumeration types not supported |
+| Resource      | FMI 3.0     | ❌  | known bug in 10.2.1， will be fixed |
+| Roberts       | FMI 3.0     | ✅  | reference CSV mismatch, verified via conservation law instead |
+| Stair         | FMI 3.0     | ✅  | simulation limited to ≤5 s |
+| StateSpace    | FMI 3.0     | ✅  | |
+| VanDerPol     | FMI 3.0     | ✅  | |
+| BouncingBall  | FMI 2.0     | ✅  | |
+| Dahlquist     | FMI 2.0     | ✅  | |
+| Feedthrough   | FMI 2.0     | ❌  | String/Boolean/Enumeration types not supported |
+| Resource      | FMI 2.0     | ✅  | |
+| Stair         | FMI 2.0     | ✅  | |
+| VanDerPol     | FMI 2.0     | ✅  | |
+
+✅ tested and passed &nbsp;|&nbsp; ❌ failed &nbsp;|&nbsp; — not tested (interface not offered by this FMU/tool)
+
 
 ## Dymola 
 https://github.com/CATIA-Systems/dymola-fmi-compatibility/tree/main
@@ -25,7 +79,7 @@ Tested with the `CoupledClutches` example FMUs exported from Dymola 2026x (`FMUs
 
 ### GCAir
 
-GCAir supports both CS and ME, for FMI 1.0, 2.0 and 3.0.
+GCAir supports both CS and ME, for FMI 1.0, 2.0, 3.0
 
 | FMU                              | CS  | ME  |
 |-----------------------------------|:---:|:---:|
