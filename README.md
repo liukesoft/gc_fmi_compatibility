@@ -163,3 +163,23 @@ Tested with the MWorks Sysplorer 2025b exported FMUs.
 | DFFREG          | FMI 2.0     | ✅  |
 
 ✅ tested and passed
+
+
+## dSPACE TargetLink
+https://www.dspace.com/en/pub/home/support/supvers/supverscompm/fmicompatibility/fmi-cross-check-targetlink.cfm
+
+Tested with the TargetLink 24.1 exported FMUs. These FMUs are CoSimulation only and contain
+the C source code, plus binaries for Linux 64-bit, Windows 64-bit and Windows 32-bit.
+
+### GCAir
+
+| FMU                      | FMI version | CS  | ME  |
+|--------------------------|:-----------:|:---:|:---:|
+| Fmucontroller            | FMI 2.0     | ✅  | —   |
+| Fmufuelratecontroller    | FMI 2.0     | ✅  | —   |
+| FmuTL_VelocityController | FMI 2.0     | ✅  | —   |
+| controller               | FMI 3.0     | ✅  | —   |
+| fuelratecontroller       | FMI 3.0     | ✅  | —   |
+| TL_VelocityController    | FMI 3.0     | ✅  | —   |
+
+✅ tested and passed &nbsp;|&nbsp; — not tested
