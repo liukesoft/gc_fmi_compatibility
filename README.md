@@ -47,9 +47,11 @@ GCAir V10.2.1.
 | Stair         | FMI 2.0     | ✅  | ✅  | |
 | VanDerPol     | FMI 2.0     | ✅  | ✅  | |
 
-### GCKontrol
+### GCKontrol 
 
-GCKontrol 10.2.1
+Below FMUs were tested with GCKontrol 10.2.2
+
+
 
 | FMU           | FMI version | CS  | Notes |
 |---------------|:-----------:|:---:|-------|
@@ -57,7 +59,7 @@ GCKontrol 10.2.1
 | Clocks        | FMI 3.0     | ❌  | Clock variables not supported |
 | Dahlquist     | FMI 3.0     | ✅  | |
 | Feedthrough   | FMI 3.0     | ❌  | String/Boolean/Enumeration types not supported |
-| Resource      | FMI 3.0     | ❌  | known bug in 10.2.1， will be fixed |
+| Resource      | FMI 3.0     | ✅  |  |
 | Roberts       | FMI 3.0     | ✅  | reference CSV mismatch, verified via conservation law instead |
 | Stair         | FMI 3.0     | ✅  | simulation limited to ≤5 s |
 | StateSpace    | FMI 3.0     | ✅  | |
@@ -75,7 +77,7 @@ GCKontrol 10.2.1
 ## Dymola 
 https://github.com/CATIA-Systems/dymola-fmi-compatibility/tree/main
 
-Tested with the `CoupledClutches` example FMUs exported from Dymola 2026x (`FMUs_othertools/dymola-fmi-compatibility-main/2026x, 2025-10-10/`).
+Tested with the `CoupledClutches` example FMUs exported from Dymola 2026x.
 
 ### GCAir
 
@@ -98,14 +100,19 @@ GCAir supports both CS and ME, for FMI 1.0, 2.0, 3.0
 
 ### GCKontrol
 
-GCKontrol import was only tested against the FMI 2.0 FMUs. 
 
-| FMU                              | CS  |
-|-----------------------------------|:---:|
-| CoupledClutches_fmi2_Cvode.fmu    | ✅  |
-| CoupledClutches_fmi2_Dassl.fmu    | ✅  |
-| CoupledClutches_fmi2_Ida.fmu      | ✅  |
-| CoupledClutches_fmi2_Inline.fmu   | ✅  |
+Below FMUs were tested with GCKontrol 10.2.2
+
+| FMU                              | FMI version | CS  | Notes                |
+|-----------------------------------|:-----------:|:---:|----------------------|
+| CoupledClutches_fmi2_Cvode.fmu    | FMI 2.0     | ✅  |                      |
+| CoupledClutches_fmi2_Dassl.fmu    | FMI 2.0     | ✅  |                      |
+| CoupledClutches_fmi2_Ida.fmu      | FMI 2.0     | ✅  |                      |
+| CoupledClutches_fmi2_Inline.fmu   | FMI 2.0     | ✅  |                      |
+| CoupledClutches_fmi3_Cvode.fmu    | FMI 3.0     | ✅  |                      |
+| CoupledClutches_fmi3_Dassl.fmu    | FMI 3.0     | ✅  |                      |
+| CoupledClutches_fmi3_Ida.fmu      | FMI 3.0     | ✅  |                      |
+| CoupledClutches_fmi3_Inline.fmu   | FMI 3.0     | ✅  |                      |
 
 ✅ tested and passed &nbsp;|&nbsp; — interface not offered by this FMU.
 
@@ -127,12 +134,14 @@ Tested with the MapleSim 2024 exported FMUs.
 
 ### GCKontrol
 
-| Model           | FMI version | CS  |
-|-----------------|:-----------:|:---:|
-| CoupledClutches | FMI 2.0     | ✅  |
-| CoupledClutches | FMI 3.0     | ✅  |
-| Rectifier       | FMI 2.0     | ✅  |
-| SlidingCrank    | FMI 3.0     | ✅  |
+| Model                 | FMI version |  CS  |
+| --------------------- | :---------: | :--: |
+| CoupledClutches       |   FMI 2.0   |  ✅   |
+| CoupledClutches       |   FMI 3.0   |  ✅   |
+| Rectifier             |   FMI 2.0   |  ✅   |
+| SlidingCrank          |   FMI 3.0   |  ✅   |
+| ControlledTemperature |   FMI 2.0   |  ✅   |
+| ControlledTemperature |   FMI 3.0   |  ✅   |
 
 ✅ tested and passed
 
@@ -161,25 +170,32 @@ Tested with the MWorks Sysplorer 2025b exported FMUs.
 | CoupledClutches | FMI 2.0     | ✅  |
 | BouncingBall    | FMI 2.0     | ✅  |
 | DFFREG          | FMI 2.0     | ✅  |
+MWORKS.Sysplorer 2025b:
 
+| FMU                        | FMI version | CS  |
+|-----------------------------|:-----------:|:---:|
+| BouncingBall.fmu            | FMI 2.0     | ✅  |
+| CoupledClutches.DFFREG.fmu  | FMI 2.0     | ✅  |
+| BouncingBall.fmu            | FMI 3.0     | ✅  |
+| CoupledClutches.fmu         | FMI 3.0     | ✅  |
+| DFFREG/DFFREG.fmu           | FMI 3.0     | ✅  |
 ✅ tested and passed
 
 
 ## dSPACE TargetLink
 https://www.dspace.com/en/pub/home/support/supvers/supverscompm/fmicompatibility/fmi-cross-check-targetlink.cfm
 
-Tested with the TargetLink 24.1 exported FMUs. These FMUs are CoSimulation only and contain
-the C source code, plus binaries for Linux 64-bit, Windows 64-bit and Windows 32-bit.
+Tested with the TargetLink 24.1 exported FMUs. These FMUs are CoSimulation.
 
 ### GCAir
 
-| FMU                      | FMI version | CS  | ME  |
-|--------------------------|:-----------:|:---:|:---:|
-| Fmucontroller            | FMI 2.0     | ✅  | —   |
-| Fmufuelratecontroller    | FMI 2.0     | ✅  | —   |
-| FmuTL_VelocityController | FMI 2.0     | ✅  | —   |
-| controller               | FMI 3.0     | ✅  | —   |
-| fuelratecontroller       | FMI 3.0     | ✅  | —   |
-| TL_VelocityController    | FMI 3.0     | ✅  | —   |
+| FMU                      | FMI version | CS  | 
+|--------------------------|:-----------:|:---:|
+| Fmucontroller            | FMI 2.0     | ✅  | 
+| Fmufuelratecontroller    | FMI 2.0     | ✅  | 
+| FmuTL_VelocityController | FMI 2.0     | ✅  | 
+| controller               | FMI 3.0     | ✅  | 
+| fuelratecontroller       | FMI 3.0     | ✅  | 
+| TL_VelocityController    | FMI 3.0     | ✅  | 
 
 ✅ tested and passed &nbsp;|&nbsp; — not tested
