@@ -199,3 +199,16 @@ Tested with the TargetLink 24.1 exported FMUs. These FMUs are CoSimulation.
 | TL_VelocityController    | FMI 3.0     | ✅  | 
 
 ✅ tested and passed &nbsp;|&nbsp; — not tested
+
+### GCKontrol
+
+| FMU                      | FMI version | CS  | 
+|--------------------------|:-----------:|:---:|
+| Fmucontroller            | FMI 2.0     | ✅  | 
+| Fmufuelratecontroller    | FMI 2.0     | ✅  | 
+| FmuTL_VelocityController | FMI 2.0     | ✅  | 
+| controller               | FMI 3.0     | ✅  | 
+| fuelratecontroller       | FMI 3.0     | ✅  | 
+| TL_VelocityController    | FMI 3.0     | ✅  | 
+
+✅ tested and passed &nbsp;|&nbsp; — not tested
